@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       });
     });
     // Set timer to generate ice blocks every 500 milliseconds
-    _bloc.iceBlockTimer = Timer.periodic(Duration(milliseconds: 500), (Timer timer) {
+    _bloc.iceBlockTimer = Timer.periodic(Duration(milliseconds: 650), (Timer timer) {
       if (!_bloc.isCountDown) {
         _bloc.addIceBlock();
       }

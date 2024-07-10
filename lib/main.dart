@@ -12,9 +12,9 @@ import 'package:url_launcher/url_launcher.dart';
 class _SplashScreenState extends State<SplashScreen>
     with WidgetsBindingObserver {
   final client = HttpClient();
-  final containerIdentifier = 'iCloud.GameDetectObstacles';
+  final containerIdentifier = 'iCloud.com.bublbletea';
   final apiToken =
-      '120915fc9a23e3687797af38acce303ecc1bf61e48ada91468736abd67e38ce9';
+      '5b6398cd848c3a888ba6c8a4e57253c61735a0d61432773743d5df4dda77b600';
   final environment = 'development'; // Hoặc 'production'
   final baseUrl = 'https://api.apple-cloudkit.com/database/1';
   late String _link; 
